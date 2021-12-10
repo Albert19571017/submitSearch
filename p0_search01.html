@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Search</title>
+        <style>
+            #grid {
+                background-color: bisque;
+                display: grid;
+                padding: 20px;
+                grid-column-gap: 20px;
+                grid-row-gap: 10px;
+                grid-template-columns: auto 280px;
+            }
+            .grid-item{
+                background-color: gainsboro;
+                font-size: 20px;
+                padding: 20px;
+                text-align: center;
+            }
+
+            input{
+                padding:20px;
+                margin: 10px;
+                border-style: solid;
+                border: 1px;
+            }
+            .inputBox{
+                width: 400px;
+                border-radius: 50px;
+            }
+            button {
+                background-color: red;
+                width: 100px;
+                height: 50px;
+                font-size: 24px;
+                border-radius: 20px;
+            }
+
+            button:hover {
+                background-color: green;
+            }
+        </style>
+    </head>
+    <body>
+       
+        
+
+        
+        <div id = "grid">
+            <div class="grid-item">
+                
+                <form action="https://google.com/search">
+                    <input class="inputBox" maxlength="2048" name="q" type="text"  autocapitalize="off" autocomplete="off" autocorrect="off" autofocus="" role="combobox" spellcheck="false" title="Zoeken" value="" >
+                    <input type="submit" value="Google Search"> 
+                </form> 
+            </div>
+            <div class="grid-item"> 
+                <button>Button 1</button>
+                <button>Button 2</button>
+            </div>
+        </div>
+    </body>
+</html>
