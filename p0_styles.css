@@ -1,0 +1,133 @@
+.page01{
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    margin: 0 auto -60px;
+}
+.head01{
+    display:flex;
+    padding: 12px 20px 12px 20px;
+    box-sizing: border-box;
+    flex-shrink: 0;
+    height: 72px;
+    align-items: center;
+    justify-content: flex-end;
+}
+.head02{
+    background-color: gainsboro;
+}
+.lineHor01{
+    border-bottom: 1px solid silver;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.col01{
+    font-size: 14px;
+    float: right;
+    padding: 4px 8px;
+}
+.col03{
+    float: left;
+    font-size: 12px;
+    padding: 4px 8px;
+}
+.textinput01 {
+    border-radius: 1px;
+    border: 1px solid #d9d9d9;
+    font-size: 14px;
+    padding: 1px 8px;
+    min-width: 300px;
+    max-width: 100%;
+}
+.pictureBox{
+    display:flex;
+    padding: 6px 20px 6px 20px;
+    box-sizing: border-box;
+    flex-shrink: 0;
+    min-height: 100px;
+    max-height: 290px;
+    align-items: center;
+    justify-content: center;
+}
+.picture001{
+    max-height:100%;
+    max-width:100%;
+    object-fit:contain;
+    object-position:center bottom;
+    width:auto;
+    vertical-align:bottom
+    }
+.main-box{
+    display:flex;
+    padding: 12px 20px 12px 20px;
+    box-sizing: border-box;
+    justify-content: center;
+}
+.input001-box{
+    display: flex;
+    box-sizing: content-box;
+    justify-content: center;
+    background-color: transparent;
+    border: 2px solid silver;
+    margin: 0 auto;
+    padding: 4px 20px 4px 20px;
+    height: 32px;
+    border-radius: 32px;
+    max-width:800px;
+    align-items: center;
+}
+.input001-box:hover{
+    border-color: grey;
+}
+.glass-box{
+    display: flex;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 32px;
+    width: 32px;
+}
+.input002-box{
+    display: flex;
+    box-sizing: border-box;
+    background-color: transparent;
+    padding-left: 5px;
+    height: 24px;
+    font-size: 14px;
+    color: black;
+    min-width: 320px;
+    border:none;
+    outline: none;
+}
+.button001{
+    background-color: lightsteelblue;
+    border: 1px solid lightsteelblue;
+    border-radius: 4px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+}
+.button001:hover {
+    border: 2px solid steelblue;
+}
+.grid {
+    background-color: rgb(255, 255, 255);
+    display: grid;
+    justify-content: center;
+    padding: 2px;
+    grid-column-gap: 2px;
+    grid-row-gap: 2px;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.grid-item {
+    min-height: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px;
+    text-align: center;
+}
